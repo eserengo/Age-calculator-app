@@ -12,8 +12,13 @@
 @tailwind utilities;
 
 @layer base {
-  :html {
-    font-family: "Poppins";
+  :root {
+    font-family: "Poppins", serif;
     font-size: 16px;
+    --LightGreen: #39c439;
   }
+}
+
+[v-cloak] {
+  display: none;
 }
